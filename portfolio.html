@@ -38,8 +38,14 @@
             </nav>
         
             <ul class="contacts-list">
-                <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                <li class="item-contacts"><a href="mailto:info@devstudio.com" class="link">
+                        <svg class="icon-envelope">
+                            <use href="./images/sprite.svg#envelope"></use>
+                        </svg>info@devstudio.com</a></li>
+                <li class="item-contacts"><a href="tel:+380961111111" class="link">
+                        <svg class="icon-smartphone">
+                            <use href="./images/sprite.svg#smartphone"></use>
+                        </svg>+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -147,19 +153,56 @@
     <!-- Подвал страницы -->
 
     <footer class="footer">
-        <div class="container">
-            <p class="logo-footer">
-                <a href="/" class="logo">
-                    <span lang="en" class="logo-color">Web</span><span class="color-studio">Studio</span>
-                </a>
-            </p>
+        <div class="container box">
+            <div class="container-footer">
+                <p class="logo-footer">
+                    <a href="/" class="logo">
+                        <span lang="en" class="logo-color">Web</span><span class="color-studio">Studio</span>
+                    </a>
+                </p>
     
-            <address class="address">
-                <span class="street"> г. Киев, пр-т Леси Украинки, 26 </span><br>
-                <a href="mailto:info@example.com" class="mail">info@example.com</a> <br>
-                <a href="tel:+380991111111" class="phone">+38 099 111 11 11</a>
-            </address>
+                <address class="address">
+                    <span class="street"> г. Киев, пр-т Леси Украинки, 26 </span><br>
+                    <a href="mailto:info@example.com" class="mail">info@example.com</a> <br>
+                    <a href="tel:+380991111111" class="phone">+38 099 111 11 11</a>
+                </address>
+            </div>
+    
+            <section>
+                <h3 class="welcome-title">Присоединяйтесь</h3>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="" class="link-footer">
+                            <svg class="icon-footer" width="20" height="20">
+                                <use href="./images/icon.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="link-footer">
+                            <svg class="icon-footer" width="20" height="20">
+                                <use href="./images/icon.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="link-footer">
+                            <svg class="icon-footer" width="20" height="20">
+                                <use href="./images/icon.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="link-footer">
+                            <svg class="icon-footer" width="20" height="20">
+                                <use href="./images/icon.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
         </div>
+        </section>
+    
     </footer>
     
 </body>
